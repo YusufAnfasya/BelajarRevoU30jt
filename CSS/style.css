@@ -1,0 +1,298 @@
+
+.container{
+    border-bottom: 2px solid rgb(235, 235, 235);
+    display: flex;
+    font-family: 'Golos Text', sans-serif;
+    
+}
+
+.container > div{
+    justify-content: flex-start;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right: 2%;
+    text-align: center;
+    border : 1px solid black;
+    border-radius: 5px;
+}
+
+#logo{
+    margin-right: auto;
+    margin-left: 3%;   
+}
+
+.menu > a{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    width: 100px;
+    padding: 10px;
+    float: left;
+}
+
+a.tengah{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+main{
+    font-family: 'Golos Text', sans-serif;
+    
+}
+
+.moto{
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    color: rgb(53, 52, 52); ;
+}
+
+.moto > h4 {
+    color: lightgrey;
+    font-weight: 100;
+    padding : 10px;
+}
+
+
+
+#banner1{
+    border-radius: 10px;
+}
+
+.content-caption{
+    font-style: italic;
+    color: gray;
+}
+.content-person{
+    display: flex;
+}
+.person-info{
+    display:grid;
+    padding-left: 5px;
+}
+.person-info>h4{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding: 0%;
+}
+
+.person-info>p{
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: flex;
+}
+
+.nomor{
+    color: rgb(126, 174, 179);
+    border: 1px solid rgb(237, 235, 235);
+    background-color:rgb(237, 237, 237);
+    border-radius: 100%;
+    padding: 10px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+
+.contact{
+    border: 1px solid rgba(237,240,244,255);
+    border-radius: 5px;
+    background-color: rgba(237,240,244,255);
+    padding: 30px;
+}
+
+.contact-head > p {
+    color: grey;
+    font-size: 12px;
+
+}
+
+.about{
+    width: 100%;
+}
+
+.about-content {
+    padding-left: 5%;
+}
+
+
+.contact-form{
+    /* width: 60%; */
+}
+
+#about-contact {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-contact{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+
+.contact-input{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.contact-input > label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.contact-input > select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 2px ;
+    border: 2px solid grey;
+    color: gray;
+}
+
+.contact-input > input{
+    width: 96%;
+    padding: 10px;
+    padding-right: 0px;
+    
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-width: 2px ;
+}
+
+ .call > button , .send-mail{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+
+
+hr{
+    width: 20%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    filter: opacity(50%);
+}
+
+.rekom{
+    display: flex;
+}
+
+
+
+.our-package{
+    background-color: rgba(211, 211, 211, 0.500);
+    text-align: center;
+    padding: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#allrekom{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.rekom>img{
+    margin-top: 1.5%;
+}
+
+.call-us{
+    text-align: center;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 5%;
+}
+
+.call>button{
+    width: 50%;
+    padding: 1%;
+}
+
+.term_copyright{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0%;
+
+}
+.term_copyright > p{
+    margin-top:0%;
+    margin-bottom:0.5%;
+ }
+
+footer{
+    padding: 2%;
+    text-align: center;
+}
+
+.mySlides{
+    display: none;
+}
+
+.active {
+    background-color: #717171;
+  }
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3.0s;
+  }
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 600px) {
+    #about-contact {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .menu > a{
+        text-decoration: none;
+        font-size: smaller ;
+        color: black;
+        /* width: 100px;
+        padding: 10px; */
+        float: left;
+    }
+
+    .container{
+        border-bottom: 2px solid rgb(235, 235, 235);
+        display: flex;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    
+    .container > div{
+        justify-content: flex-start;
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-right: 0%;
+        text-align: center;
+        border : 1px solid black;
+        border-radius: 5px;
+    }
+}
